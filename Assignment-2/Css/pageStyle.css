@@ -1,0 +1,314 @@
+html{
+    scroll-behavior: smooth;
+    background-image: url(../img/ArcaneBackground.webp);
+    background-size: cover;
+}
+/* My Custom Fonts */
+
+p, a {
+    color: white;
+}
+/* Header */
+header{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    padding-top: 150px;
+    height: 450px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #12184d;
+    top: 0;
+}
+/* Band logo */
+header div img{
+    display: flex;
+    width: 151px;
+    height: 194px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 90px;
+    left: 225px;
+    background-color: #e2e53c;
+    border-radius: 5%;
+}
+/* Video link */
+header div iframe{
+    position: relative;
+    bottom: 70px;
+    border-radius: 5%;
+}
+/* Main */
+main {
+    padding-top: 650px;
+    text-align: center;
+    font-family: 'Poetsen One', sans-serif;
+    font-size: 30px;
+    overflow-y: scroll;
+    height: 800px;
+}
+/* Section titles*/
+main h3{
+    padding-bottom: 30px;
+    color: #c8732d;
+    font-family: 'Kablammo', sans-serif;
+    font-size: 45px;
+}
+/* Lyric Sections */
+
+/* Chorus one */
+.chorus-one{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.chorus-one p span{
+    font-style: italic;
+    color: rgb(26, 183, 183);
+}
+.chorus-one .light{
+    font-size: 40px;
+    color: #f97f1b;
+    text-shadow: 4px 2px 4px rgba(255, 234, 0, 0.7);
+}
+.chorus-one .his-face{
+    font-style: italic;
+    font-size: 35px;
+    color: rgb(157, 188, 188);
+    text-shadow: 4px 2px 4px rgb(98, 98, 98);
+}
+.chorus-one .disapointment{
+    font-family: 'Rubik Dirt', sans-serif;
+    font-style: italic;
+    font-size: 50px;
+    color: #1092afc4;
+}
+.chorus-one #first-question{
+    font-size: 27px;
+    font-style: italic;
+    color: rgb(189, 189, 189);
+}
+/* Verse one */
+.verse-one{
+    padding-bottom: 100px;
+}
+.verse-one .lament{
+    font-size: 33px;
+    font-style: italic;
+    color: #15f4b1;
+}
+.verse-one #forshadowing{
+    font-family: 'Kablammo', sans-serif;
+    color: #bbbb86;
+    text-shadow: 4px 2px 5px rgb(181, 158, 118, 0.9);
+}
+.verse-one div p{
+    color: rgb(188, 199, 196);
+}
+.verse-one div #memories{
+    font-size: 40px;
+    color: #c66bbd;
+    text-shadow: 3px 2px 3px rgba(255, 255, 255, 0.7);
+}
+.verse-one div #past{
+    font-family: 'Rubik Dirt', sans-serif;
+    font-size: 27px;
+}
+.verse-one .change{
+    font-family: 'Rubik Dirt', sans-serif;
+    font-style: italic;
+    color: rgb(150, 167, 162);
+}
+/*Chorus two */
+.chorus-two{
+    padding-bottom: 100px;
+}
+.chorus-two p{
+    font-family: 'Rubik Dirt', sans-serif;
+    color: rgb(150, 167, 162);
+}
+.chorus-two p span{
+    font-style: italic;
+    font-size: 28px;
+    color: rgb(25, 158, 158);
+}
+.chorus-two .light{
+    font-size: 42px;
+    color: #f1852d;
+    text-shadow: 4px 2px 4px rgba(255, 235, 14, 0.7);
+}
+.chorus-two .his-face{
+    font-style: italic;
+    font-size: 32px;
+    color: rgb(157, 188, 188);
+    text-shadow: 4px 2px 4px rgb(98, 98, 98);
+}
+.chorus-two .disapointment{
+    font-family: 'Rubik Puddles', sans-serif;
+    font-style: italic;
+    font-size: 50px;
+    color: #1092afc4;
+}
+.chorus-two #second-question{
+    font-size: 25px;
+    font-style: italic;
+    color: rgb(124, 131, 129);
+    text-shadow: 1px 2px 2px rgba(240, 240, 240, 0.7);
+}
+/* Verse two */
+.verse-two{
+    padding-bottom: 100px;
+}
+.verse-two p{
+    font-family: 'Rubik Dirt', sans-serif;
+    color: rgb(130, 140, 137);
+}
+.verse-two #realization{
+    font-style: italic;
+    text-shadow: 2px 2px 2px rgba(132, 132, 132, 0.7);
+}
+.verse-two #him{
+    font-size: 33px;
+    font-style: italic;
+    color: #4fd3ac;
+}
+.verse-two #threshold{
+    font-size: 22px;
+}
+.verse-two .eyes{
+    font-style: italic;
+
+}
+.verse-two .eyes span{
+    text-shadow: 3px 2px 3px rgba(255, 223, 201, 0.7);
+}
+.verse-two #fear{
+    font-family: 'Rubik Puddles', sans-serif;
+    font-style: italic;
+    text-shadow: 3px 2px 3px rgba(255, 223, 201, 0.7);
+}
+.verse-two .change{
+    font-family: 'Rubik Puddles', sans-serif;
+    font-style: italic;
+    color: rgb(119, 130, 127);
+}
+/* Chorus three */
+.chorus-three{
+    padding-bottom: 100px;
+}
+.chorus-three p{
+    font-family: 'Rubik Puddles', sans-serif;
+    font-size: 33px;
+    color: #8b8b89;
+}
+.chorus-three p span{
+    font-style: italic;
+    font-size: 28px;
+    color: rgb(39, 108, 108);
+}
+.chorus-three .light{
+    font-size: 40px;
+    color: #ff831e;
+    text-shadow: 4px 2px 4px rgba(254, 233, 0, 0.771);
+}
+.chorus-three .his-face{
+    font-style: italic;
+    font-size: 29px;
+    color: rgb(150, 175, 175);
+    text-shadow: 4px 2px 4px rgb(72, 72, 72);
+}
+.chorus-three .disapointment{
+    font-family: 'Rubik Puddles', sans-serif;
+    font-style: italic;
+    font-size: 53px;
+    color: #11b7ddc4;
+}
+.chorus-three .third-question{
+    font-size: 35px;
+    font-style: italic;
+    color: rgb(124, 131, 129);
+    text-shadow: 1px 2px 2px rgba(248, 186, 41, 0.7);
+}
+.chorus-three .third-question span{
+    font-family: 'Kablammo', sans-serif;
+    font-size: 39px;
+    font-style: italic;
+    color: rgb(214, 164, 26);
+    text-shadow: 1px 2px 2px rgba(246, 255, 0, 0.814);
+}
+/* Final chorus */
+.final-chorus p{
+    font-family: 'Kablammo', sans-serif;
+    text-shadow: 5px 2px 4px rgb(224, 208, 188);
+    color: #acad9f;
+}
+.final-chorus div p{
+    font-size: 40px;
+    text-shadow: 5px 2px 4px rgb(241, 195, 139);
+    color: #e2e53c;
+}
+.final-chorus div span{
+    font-family: 'Butcherman', sans-serif;
+    text-shadow: 5px 2px 4px rgb(172, 111, 111);
+    color: #e5473c;
+}
+.final-chorus .light{
+    font-family: 'Butcherman', sans-serif;
+    font-size: 45px;
+    color: #ee2a2a;
+    text-shadow: 4px 2px 4px rgba(255, 136, 0, 0.7);
+}
+.final-chorus #shine{
+    font-family: 'Butcherman', sans-serif;
+    font-size: 49px;
+    color: #f30b0b;
+    text-shadow: 4px 2px 4px rgba(216, 75, 4, 0.7);
+}
+.final-chorus .his-face{
+    font-family: 'Butcherman', sans-serif;
+    font-size: 57px;
+    color: #ff0000;
+    text-shadow: 4px 2px 4px rgba(29, 29, 29, 0.7);
+}
+.final-chorus .disapointment{
+    font-family: 'Butcherman', sans-serif;
+    font-style: italic;
+    font-size: 62px;
+    color: #0295b7c4;
+    text-shadow: 5px 3px 5px rgba(255, 255, 255, 0.7);
+}
+.final-chorus .crossing{
+    font-size: 44px;
+    font-style: italic;
+    text-shadow: 5px 2px 4px rgb(175, 160, 141);
+    color: #a7a867;
+}
+.final-chorus #final-question{
+    font-size: 35px;
+    font-style: italic;
+}
+.final-chorus #final-question span{
+    color: rgb(108, 110, 110);
+    text-shadow: 1px 2px 2px rgba(232, 230, 230, 0.9);
+    padding-bottom: 60px;
+}
+.final-chorus #fading{
+    font-size: 27px;
+    color: rgb(73, 73, 73);
+    text-shadow: 1px 2px 2px rgba(241, 239, 239, 0.9);
+}
+
+.final-chorus #gone{
+    font-size: 20px;
+    color: rgb(40, 40, 40);
+    text-shadow: 1px 2px 2px rgba(255, 255, 255, 0.956);
+}
+/* Footer */
+footer p{
+    font-family: 'Rubik Puddles', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    text-align: left;
+    color: aquamarine;
+}
